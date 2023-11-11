@@ -1,0 +1,51 @@
+.detailItem {
+    width: 90rem;
+    height: 50rem;
+    margin: 1rem 3rem 2rem 3rem;
+    padding: 0.5rem;
+    border: 1px solid #666;
+    border-radius: 10px;
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detailImg {
+    width: 90%;
+    height: 30rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.detailTitulo {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1.5rem;
+    height: 2rem;
+    object-fit: contain;
+
+}
+
+.detailPrecio {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 2rem;
+}
+
+.detailTexto {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin: 1rem;
+}
+.detailId {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin: 1rem;
+}
